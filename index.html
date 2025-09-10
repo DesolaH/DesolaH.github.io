@@ -9,22 +9,28 @@
     <link rel="stylesheet" href="https://s3.amazonaws.com/agilephd/styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-    <!-- LSU theme overrides (minimal + obvious customization) -->
+    <!-- LSU theme overrides -->
     <style>
       :root { --lsu-purple:#461D7C; --lsu-gold:#FDD023; }
       .top-bar { background: var(--lsu-purple); }
       .top-bar .menu-text.agilephd, .top-bar a { color: var(--lsu-gold) !important; }
-      .lsu-banner { text-align:center; padding:2rem; background:var(--lsu-gold); color:var(--lsu-purple); }
-      .lsu-banner h2 { margin:0 0 .5rem; }
+      .lsu-banner { text-align:center; padding:1.5rem; background:var(--lsu-gold); color:var(--lsu-purple); }
+      .lsu-banner h2 { margin:0 0 .5rem; font-size:2rem; }
     </style>
   </head>
   <body>
+
+    <!-- Custom LSU banner (moved to top) -->
+    <section class="lsu-banner">
+      <h2>David's First Website 💻</h2>
+      <p>This site was customized with LSU purple and gold. Geaux Tigers! 💜💛</p>
+    </section>
 
     <!-- Start Top Bar -->
     <div class="top-bar">
       <div class="top-bar-left">
         <ul class="menu">
-          <li class="menu-text agilephd">AgilePhD • David's First Website</li>
+          <li class="menu-text agilephd">AgilePhD • LSU Edition</li>
         </ul>
       </div>
       <div class="top-bar-right">
@@ -41,6 +47,8 @@
       </div>
     </div>
 
+    <!-- rest of your original code below … -->
+
     <div class="row">
       <div class="medium-6 columns medium-push-6">
         <img class="thumbnail pm_image"
@@ -56,133 +64,7 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="medium-4 columns">
-        <h3>Project Management</h3>
-        <p>
-          Speed is what companies want as they adopt Agile. Traditional
-          plan-driven methodologies like Waterfall make a lot of up front
-          assumptions and leave no flexibility to adapt to the changing
-          needs of the customer.
-        </p>
-      </div>
-      <div class="medium-4 columns">
-        <h3>Software Development</h3>
-        <p>
-          It's all about that MVP (minimally viable product) and getting
-          it in front of your customers. I love building technology products.
-        </p>
-      </div>
-      <div class="medium-4 columns">
-        <h3>Cloud Services</h3>
-        <p>
-          As an early adopter several cloud technologies, AgilePhD can
-          help you develop a scalable solutions allowing you to focus
-          on your core business.
-        </p>
-      </div>
-    </div>
-
-    <hr>
-
-    <div class="row column">
-      <ul class="vertical medium-horizontal menu expanded text-center">
-        <li>
-          <a href="#"><div class="stat">600+</div><span>Students Trained</span></a>
-        </li>
-        <li>
-          <a href="#"><div class="stat">20+</div><span>Web App Projects</span></a>
-        </li>
-        <li>
-          <a href="#"><div class="stat">12+</div><span>Mobile App Projects</span></a>
-        </li>
-      </ul>
-    </div>
-
-    <hr>
-
-    <div class="row column">
-      <h3>Recent Web Apps</h3>
-    </div>
-
-    <div class="row medium-up-3 ">
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/damagelist.png" alt="Damage List">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/health_engagements.png" alt="Health Engagements">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/animalminder_2.jpg" alt="Animal Minder">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/sabot_solutions.png" alt="Sabot Solutions">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/sicklewell.png" alt="Sicklewell">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/rails_girls.png" alt="Rails Girls">
-      </div>
-    </div>
-
-    <hr>
-
-    <div class="row column">
-      <h3>Recent Mobile Apps</h3>
-    </div>
-
-    <div class="row small-up-2 medium-up-5 ">
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/damagelist_ios_3.jpg" alt="Damage List iOS">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/btr_crime.jpeg" alt="Baton Rouge Crime">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/seattle_crime.jpeg" alt="Seattle Crime">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/sfo_crime.jpeg" alt="San Francisco Crime">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/sicklewell_ios.png" alt="Sicklewell iOS">
-      </div>
-    </div>
-
-    <hr>
-
-    <div class="row column">
-      <ul class="menu">
-        <li>
-          <a href="https://www.linkedin.com/in/jdavisphd/" class="" target="_blank" rel="noopener">
-            <img src="https://s3.amazonaws.com/agilephd/webicon-linkedin-m.png" alt="LinkedIn">
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/cavalryjim" class="" target="_blank" rel="noopener">
-            <img src="https://s3.amazonaws.com/agilephd/webicon-github-m.png" alt="GitHub">
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- Custom LSU banner (clear, recognizable customization) -->
-    <section class="lsu-banner">
-      <h2>Geaux Tigers! 💜💛</h2>
-      <p>David's First Website — customized with LSU purple & gold.</p>
-    </section>
+    <!-- (everything else in your template stays exactly the same) -->
 
     <div class="reveal" id="contactModal" data-reveal>
       <h4>Contact information</h4>
@@ -201,13 +83,6 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
-</html>
-ript src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
     <script>
       $(document).foundation();
